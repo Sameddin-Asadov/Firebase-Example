@@ -1,0 +1,35 @@
+.header-div{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content:space-between;
+}
+.img{
+    margin-left: 15px;
+    width: 100px;
+}
+.header-left{
+    margin-right: 15px;
+}
+.exit-buton{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.exit-buton:hover{
+    background-color: red;
+    color: #fff;
+}
+.all-btn{
+    padding: 5px 3px;
+    margin: 2px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.all-btn:hover{
+    background-color: ;
+}
