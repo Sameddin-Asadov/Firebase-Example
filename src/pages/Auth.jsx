@@ -61,13 +61,13 @@ const login = async()=>{
      <div className="form">
      <div className="info-div">"Welcome! Log in to access exclusive content."</div>
       <div className="input-div">
-        <input type="text" value={email} onChange={(e)=> setEmail(e.target.value)} placeholder='Email Daxil edin' />
-        <input type="password" value={password} onChange={(e)=> setPassword(e.target.value)} placeholder='Kod daxil edin' />
+        <input type="text" value={email} onChange={(e)=> setEmail(e.target.value)} placeholder='Email' />
+        <input type="password" value={password} onChange={(e)=> setPassword(e.target.value)} placeholder='Password' />
       </div>
       <div className="button-div">
-      <button className='button-item' onClick={loginWithGmail}><FcGoogle/> <span> Sign in with Google </span></button>
-        <button onClick={register}  className='button-item'><MdEmail /> <span> Sign in with email</span></button>
-        <button  onClick={login} className='button-item ' id='register' ><GrFormEdit /> <span>Register Now</span></button>
+      <button className='button-item' onClick={loginWithGmail}><FcGoogle className='button-icon'/> <span className='button-text'> Sign in with Google </span></button>
+        <button onClick={register}  className='button-item'><MdEmail className='button-icon'/> <span className='button-text'> Sign in with email</span></button>
+        <button  onClick={login} className='button-item button-icon'  id='register' ><GrFormEdit className='button-icon' /> <span>Register Now</span></button>
       </div>
      </div>
     </div>

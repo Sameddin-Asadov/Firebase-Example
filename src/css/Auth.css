@@ -28,9 +28,7 @@
    margin: 5px;
    cursor: pointer;
  }
- .parent-image{
-  width: 50%;
- }
+ 
 .image{
   width: 250px;
   
@@ -59,7 +57,21 @@
   background-color: #0a78e6;
   color: #ffffff;
  }
+ .info-div{
+  margin-bottom: 5px;
+ }
  #register:hover{
   color: #fff;
   background-color: green;
+ }
+ .button-icon{font-size: 25px;}
+ @media(max-width:768px){
+  .button-text{display: none;}
+  .button-icon{font-size: 40px;}
+ }
+ @media(max-width: 640px){
+  .auth-parent{
+    display: flex;
+    flex-direction: column;
+  }
  }
